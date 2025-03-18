@@ -45,6 +45,10 @@ int main()
                 break;
             case 3:
                 break;
+            default:
+                cout << "Pilihan salah, piihan harus di antara 1-3.";
+                break;
         }
     }
+    while(pilihan != 3);
 }
